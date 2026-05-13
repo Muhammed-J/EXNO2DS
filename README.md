@@ -31,7 +31,9 @@ import seaborn as sns
 df=pd.read_csv('titanic_dataset.csv')
 df
 ```
+
 <img width="540" height="194" alt="image" src="https://github.com/user-attachments/assets/7d84d345-0557-44fa-a846-f1e8a80794e6" />
+
 ```
 df.info()
 ```
@@ -41,12 +43,18 @@ df.info()
 ~~~
 df.shape
 ~~~
+
 <img width="110" height="40" alt="image" src="https://github.com/user-attachments/assets/7aac514a-b9f0-4425-a20b-e4ef2332363b" />
+
+
 Categorical data Analysis
+
 ~~~
 df.nunique()
 ~~~
+
 <img width="167" height="238" alt="image" src="https://github.com/user-attachments/assets/31389f04-c452-43fd-a066-859e641e490e" />
+
 ~~~
 df["Survived"].value_counts()
 ~~~
