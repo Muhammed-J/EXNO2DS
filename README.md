@@ -32,8 +32,12 @@ df=pd.read_csv('titanic_dataset.csv')
 df
 ```
 <img width="540" height="194" alt="image" src="https://github.com/user-attachments/assets/7d84d345-0557-44fa-a846-f1e8a80794e6" />
-```df.info()```
+~~~
+df.info()
+~~~
+
 <img width="434" height="370" alt="image" src="https://github.com/user-attachments/assets/95f2aefb-b885-4446-9127-7104297c5d12" />
+
 ~~~
 df.shape
 ~~~
